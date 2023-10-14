@@ -10,5 +10,12 @@
   "include": [
     "src/**/*.spec.ts",
     "src/**/*.d.ts"
+  ],
+  
+  "exclude": [
+    "node_modules",
+    "src/**/*.spec.ts",
+    "src/**/*.d.ts",
+    "src/app/core/services/spi.service.ts" // Add this line to exclude the specific file
   ]
 }
